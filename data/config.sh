@@ -1,6 +1,6 @@
 #!/bin/bash
 export DAISY_HOME=/daisy/daisy-2.4.2
-export JAVA_HOME=/usr/lib/jvm/java-7-oracle/jre
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-oracle-x64
 
 sed -i '/skip-external-locking/a lower_case_table_names = 1' /etc/mysql/my.cnf
 
